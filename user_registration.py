@@ -5,9 +5,11 @@ import exception_user_registration
 
 
 class UserRegistration:
-    '''Here We are performing a user registration
+    '''
+        Here We are performing a user registration
         program in which exception and regex is used.
-        For the following the test case is bieng created'''
+        For the following the test case is bieng created
+    '''
 
     def first_name(self):
         return self.first_name
