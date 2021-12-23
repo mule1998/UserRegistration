@@ -4,6 +4,9 @@ from user_registration import UserRegistration
 
 
 class TestUserRegistration(unittest.TestCase):
+    '''
+    checking the user input if user input is invalid raising the exception
+    '''
     def test_first_name_valid(self):
         expected = 'Shubhamm'
         object_user = UserRegistration()
